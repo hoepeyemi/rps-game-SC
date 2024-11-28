@@ -1,0 +1,20 @@
+[package]
+name = "solarps"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "solarps"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = {version = "0.28.0", features = ["init-if-needed"]}
+pyth-sdk-solana = "0.8.0"
