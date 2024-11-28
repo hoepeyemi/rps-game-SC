@@ -6,7 +6,7 @@ pub mod constants;
 
 use constants::*;
 
-declare_id!("");
+declare_id!("Q83KbYxK1kwSWA8w81m8FQi3JTcgiRY4C7fxjcFQU1d");
 
 #[program]
 pub mod solarps {
